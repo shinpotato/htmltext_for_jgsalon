@@ -46,20 +46,20 @@ HTMLの構文に不備が生じると自動的に指摘してくれるので、�
 
 ２．画像のように問われるので、「Visual Studio Code を開く」を選択します
 
-![vscode起動確認](images/confirmation.jpg)
+![vscode起動確認](images/confirmation.JPG)
 
 ３．画面左上の緑の「**インストール**」をクリックします
 
-![インストール](images/install2.jpg)
+![インストール](images/install2.JPG)
 
 ４．インストールが終わると緑の「**インストール**」ボタンが青の「**アンインストール**」ボタンに変わりますので、ウィンドウを閉じて再度開けばインストールと有効化が完了します
 
-![インストール後](images/after_install.jpg)
+![インストール後](images/after_install.JPG)
 
 ５．インストールされ有効化された拡張機能の状況はウィンドウ左の縦に並んだアイコンの一番下の四角いアイコンをクリックすると確認できます  
 「有効」の下に入っていればOKです
 
-![インストール確認](images/install_confirmation.jpg)
+![インストール確認](images/install_confirmation.JPG)
 
 注：`open in browser`はインストール後にデフォルトブラウザを設定する必要があります  
 このように拡張機能によってはインストール後に設定する必要があるので注意してください
@@ -75,7 +75,7 @@ HTMLの構文に不備が生じると自動的に指摘してくれるので、�
         色んな表現を拾って認識してくれる仕様になっており、例えばGoogle Chromeなら「chrome」で通じる↓</dd>
 </dl>
 
-![ブラウザ設定](images/openinbrowser_setting.jpg)
+![ブラウザ設定](images/openinbrowser_setting.JPG)
 
 # HTMLタグとは
 
@@ -89,16 +89,16 @@ HTMLの構文は基本的に**開始タグと閉じタグ**が対になってお
 
 例えば
 
-h1タグなら　`<h1>１．大見出し</h1>`  
-aタグなら　`<a>２．行先未設定リンク</a>`  
-strongタグなら　`<strong>３．スパン</strong>`
+h1タグなら　　　　`<h1>１．大見出し</h1>`  
+aタグなら　　　　　`<a href="#">２．行先未設定リンク</a>`  
+strongタグなら　　`<strong>３．強調</strong>`
 
 と書くことができます
 
 これらのHTML構文はウェブブラウザでは以下のように表現されます
 
 <h1>１．大見出し</h1>
-<a>２．行先未設定リンク</a><br>
+<a href="#">２．行先未設定リンク</a><br>
 <strong>３．強調</strong>
 
 HTMLではこのようにタグで囲むことでその間の文字の表現を変えることができます
