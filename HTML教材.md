@@ -549,9 +549,9 @@ alt属性の説明は画像が伝えたいことが伝わるように書くべ�
 
 ### 【ブラウザでの表示】
 
-<form>
-    <input name="text1" type="text" required/>＊入力必須<br>
-    <input name="text2" type="text" minlength="6"/>＊最低6文字<br>
+<form action="sample.php" method="post">
+    <input name="text1" type="text" required>＊入力必須<br>
+    <input name="text2" type="text" minlength="6">＊最低6文字<br>
     <input name="text3" type="text" value="初期値"><br>
     <input name="text4" type="text" size=40><br>
     <input name="password1" type="password"><br>
