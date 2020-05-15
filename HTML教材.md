@@ -567,8 +567,8 @@ alt属性の説明は画像が伝えたいことが伝わるように書くべ�
     <input type="button" value="ボタン">
 </form>-->
 
-![input](images/01_input.png)
-<!--<img src="images/01_input.png" width="444">-->
+<!--![input](images/01_input.png)-->
+<img src="images/01_input.png" width="50%" height="50%">
 
 ## フォーム部品２：`<select>`&`<option>`
 
@@ -631,7 +631,8 @@ alt属性の説明は画像が伝えたいことが伝わるように書くべ�
 </form>
 -->
 
-![select](images/02_select.png)
+<!--![select](images/02_select.png)-->
+<img src="images/02_select.png" width="50%" height="50%">
 
 ## フォーム部品３：`<textarea>`
 
@@ -665,7 +666,8 @@ alt属性の説明は画像が伝えたいことが伝わるように書くべ�
     <textarea name="textarea1" rows="6" cols="50" maxlength="300">6×50</textarea>
 </form>
 -->
-![textarea](images/03_textarea.png)
+<!--![textarea](images/03_textarea.png)-->
+<img src="images/03_textarea.png" width="50%" height="50%">
 
 # ボタン：`<button>`
 
@@ -675,7 +677,7 @@ alt属性の説明は画像が伝えたいことが伝わるように書くべ�
 
 コード：`<button>押してみてね</button>`
 
-表示：![button1](images/04_button1.png)
+表示：<img src="images/04_button1.png" width="20%">
 
 基本的な使い方はこれだけです
 
@@ -733,7 +735,8 @@ alt属性の説明は画像が伝えたいことが伝わるように書くべ�
 <button type="button" onclick="location.href='https://rubyinstaller.org/'">RubyInstaller</button>
 -->
 
-![button2](images/05_button2.png)
+<!--![button2](images/05_button2.png)-->
+<img src="images/05_button2.png" width="50%" height="50%">
 
 # HTMLの定型
 
