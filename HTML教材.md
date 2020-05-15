@@ -472,7 +472,7 @@ alt属性の説明は画像が伝えたいことが伝わるように書くべ�
     [送信ボタン]
 </form>
 
-
+<br>
 ユーザーの入力を受けるためには、`<form>`の開始タグと閉じタグの間に必要な**フォーム部品**（入力欄、プルダウン、チェックボックス、送信ボタンなど）を設置します
 
 なお、送信ボタンは入力データを送るために必須になります
@@ -549,7 +549,7 @@ alt属性の説明は画像が伝えたいことが伝わるように書くべ�
 
 ### 【ブラウザでの表示】
 
-<form>
+<!--<form>
     <input name="text1" type="text" required>＊入力必須<br>
     <input name="text2" type="text" minlength="6">＊最低6文字<br>
     <input name="text3" type="text" value="初期値"><br>
@@ -565,7 +565,10 @@ alt属性の説明は画像が伝えたいことが伝わるように書くべ�
     <input type="reset" value="入力値消去"><br>
     <input type="submit"><br>
     <input type="button" value="ボタン">
-</form>
+</form>-->
+
+![input](images/01_input.png)
+<!--<img src="images/01_input.png" width="444">-->
 
 ## フォーム部品２：`<select>`&`<option>`
 
@@ -611,7 +614,7 @@ alt属性の説明は画像が伝えたいことが伝わるように書くべ�
 ```
 
 ### 【ブラウザでの表示】
-
+<!--
 <form>
 		<select name="select1">
 			<option value="sample11">サンプル1-1</option>
@@ -626,6 +629,9 @@ alt属性の説明は画像が伝えたいことが伝わるように書くべ�
 			<option value="sample25">サンプル2-5</option>
 		</select>
 </form>
+-->
+
+![select](images/02_select.png)
 
 ## フォーム部品３：`<textarea>`
 
@@ -653,11 +659,13 @@ alt属性の説明は画像が伝えたいことが伝わるように書くべ�
 ```
 
 ### 【ブラウザでの表示】
-
+<!--
 <form>
 	<textarea name="textarea1" rows="2" cols="30">2×30</textarea><br>
     <textarea name="textarea1" rows="6" cols="50" maxlength="300">6×50</textarea>
 </form>
+-->
+![textarea](images/03_textarea.png)
 
 # ボタン：`<button>`
 
@@ -667,7 +675,7 @@ alt属性の説明は画像が伝えたいことが伝わるように書くべ�
 
 コード：`<button>押してみてね</button>`
 
-表示：<button>押してみてね</button>
+表示：![button1](images/04_button1.png)
 
 基本的な使い方はこれだけです
 
@@ -716,15 +724,16 @@ alt属性の説明は画像が伝えたいことが伝わるように書くべ�
 ```
 
 ## 【ブラウザでの表示】
-
-<!--フォームの送信ボタン-->
+<!--
 <form>
 お名前：<input type="text">
 <button name="name" value="value">送信</button>
 </form>
 
-<!--RubyInstallerへのリンクボタン-->
 <button type="button" onclick="location.href='https://rubyinstaller.org/'">RubyInstaller</button>
+-->
+
+![button2](images/05_button2.png)
 
 # HTMLの定型
 
