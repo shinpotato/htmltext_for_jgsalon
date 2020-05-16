@@ -568,7 +568,7 @@ alt属性の説明は画像が伝えたいことが伝わるように書くべ�
 </form>-->
 
 <!--![input](images/01_input.png)-->
-<img src="images/01_input.png" width="50%" height="50%">
+<img src="images/01_input.png" width="30%" height="30%">
 
 ## フォーム部品２：`<select>`&`<option>`
 
@@ -632,7 +632,7 @@ alt属性の説明は画像が伝えたいことが伝わるように書くべ�
 -->
 
 <!--![select](images/02_select.png)-->
-<img src="images/02_select.png" width="50%" height="50%">
+<img src="images/02_select.png" width="30%" height="30%">
 
 ## フォーム部品３：`<textarea>`
 
@@ -677,7 +677,7 @@ alt属性の説明は画像が伝えたいことが伝わるように書くべ�
 
 コード：`<button>押してみてね</button>`
 
-表示：<img src="images/04_button1.png" width="20%">
+表示：<img src="images/04_button1.png" width="15%">
 
 基本的な使い方はこれだけです
 
@@ -736,7 +736,7 @@ alt属性の説明は画像が伝えたいことが伝わるように書くべ�
 -->
 
 <!--![button2](images/05_button2.png)-->
-<img src="images/05_button2.png" width="50%" height="50%">
+<img src="images/05_button2.png" width="30%" height="30%">
 
 # HTMLの定型
 
